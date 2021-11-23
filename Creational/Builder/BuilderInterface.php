@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gaea
- * Date: 2021/11/23
- * Time: 3:58 PM
- */
 
 namespace App\DesignPattern\Creational\Builder;
 
