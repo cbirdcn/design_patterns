@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gaea
- * Date: 2021/11/22
- * Time: 4:50 PM
- */
 
 namespace App\DesignPattern\Create\SimpleFactory;
 
