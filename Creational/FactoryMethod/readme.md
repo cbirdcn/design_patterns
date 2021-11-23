@@ -38,6 +38,8 @@
 
 - demo说明
 
+[源代码](https://learnku.com/docs/php-design-patterns/2018/FactoryMethod/1489)
+
 产品类分成父产品接口LoggerProductInterface和具体产品实现类StdoutLoggerConcreteProduct和FileLoggerConcreteProduct。
 
 两个具体产品实现类都要根据父接口要求的log($msg)方法，实现自己的逻辑。

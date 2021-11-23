@@ -37,6 +37,8 @@
 
 - demo说明
 
+[源代码](https://www.cnblogs.com/wilburxu/p/6086394.html)
+
 客户端想通过一个参数（数据库驱动名称）就获取到一个数据库连接实例，然后用这个实例调用getOne($sql)方法就拿到数据。
 
 现在有一个抽象的品类class叫做DataBaseProduct，再有两个具体产品实现类，叫做Mysql和SqlServer类。他们都实现了抽象类要求的getOne()方法。
