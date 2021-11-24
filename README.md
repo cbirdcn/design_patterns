@@ -36,6 +36,8 @@
 - 配置参数注入数据库连接
 
 ### 门面Facade
+- 日志等涉及多个Interface实例化调用的复杂过程，可以简化为门面内的多实例调用
+- 数据库分片
 
 ## 行为型模式
 
@@ -43,6 +45,9 @@
 - 游戏任务进度更新
 - 队友阵亡广播
 
+## 代码说明
 
-
-PHP实现主要参考：[domnikl](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
+### PHP
+- 实现主要参考：[domnikl](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
+- 修改：namespace命名加上App\，减少子namespace，有代码注释。部分模式选用更贴合实际的例子，逻辑更清晰
+- 测试环境：php7+，部分使用PHPUnit做单元测试、部分用laravel的dd输出。
