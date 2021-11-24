@@ -29,6 +29,11 @@
 ## 结构型模式
 
 ### 适配器Adapter
+- 需要适配不同接口的方法调用时
+
+### 依赖注入
+- http请求参数注入控制器
+- 配置参数注入数据库连接
 
 ### 门面Facade
 
@@ -37,3 +42,7 @@
 ### 观察者模式Observer
 - 游戏任务进度更新
 - 队友阵亡广播
+
+
+
+PHP实现主要参考：[domnikl](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
