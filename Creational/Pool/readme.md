@@ -12,6 +12,10 @@
 
 > https://learnku.com/docs/php-design-patterns/2018/Pool/1491
 
+- 结构
+
+![image](https://cdn.learnku.com/uploads/images/201803/19/1/25wLqKYU4b.png)
+
 
 - 注意
 
