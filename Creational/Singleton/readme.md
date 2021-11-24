@@ -34,12 +34,6 @@
   - 其主要缺点在于因为缺少抽象层而难以扩展，且单例类职责过重。
 
 
-- demo说明
-
-[源代码](https://learnku.com/docs/php-design-patterns/2018/Singleton/1494)
-
-多次实例化只能得到同一个实例，由于getInstance()和$instance都是static，所以下一次实例化直接保留instance属性的变化。
-
 - 建议：
 
 有全局唯一要求，才需要单例

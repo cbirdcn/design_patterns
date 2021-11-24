@@ -36,22 +36,6 @@
 将创建对象的任务委托给多个工厂子类中的某一个，客户端在使用时可以无须关心是哪一个工厂子类创建产品子类，需要时再动态指定，可将具体工厂类的类名存储在配置文件或数据库中。这种情况相当于传参数，然后自动实例化参数对应的工厂子类，不需要改动代码，只需要配置文件有对应的工厂子类。
 
 
-- demo说明
-
-[源代码](https://learnku.com/docs/php-design-patterns/2018/FactoryMethod/1489)
-
-产品类分成父产品接口LoggerProductInterface和具体产品实现类StdoutLoggerConcreteProduct和FileLoggerConcreteProduct。
-
-两个具体产品实现类都要根据父接口要求的log($msg)方法，实现自己的逻辑。
-
-LoggerParentFactory是父工厂接口，要求实现createLogger()，也就是实例化一个LoggerProduct。
-
-StdoutLoggerChildFactory是子工厂，是父工厂的实现类。实现createLogger的过程是实例化一个对应的具体产品实例StdoutLoggerConcreteProduct。
-
-FileLoggerChildFactory和StdoutLoggerChildFactory类似，都是子工厂。
-
-需要客户端或配置文件能记住子工厂列表，实例化时需要调用子工厂的createLogger()方法得到一个具体产品的实例，然后调用log($msg)实现功能
-
 
 - 其他举例
 
